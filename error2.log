@@ -1,0 +1,74 @@
+﻿node : node:internal/m
+odules/cjs/loader:1368
+At line:1 char:1
++ node server.js 2>&1 
+| Out-File -FilePath 
+error2.log -Encoding 
+UTF8
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (node:inter   
+ nal/modules/cjs/l    
+oader:1368:String    
+) [], RemoteExcep    
+tion
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+  throw err;
+  ^
+
+Error: Cannot find 
+module 
+'./routes/leads'
+Require stack:
+- C:\Users\my\Desktop\
+TRIONA\backend\server.
+js
+    at Function._resol
+veFilename (node:inter
+nal/modules/cjs/loader
+:1365:15)
+    at 
+defaultResolveImpl (no
+de:internal/modules/cj
+s/loader:1021:19)
+    at resolveForCJSWi
+thHooks (node:internal
+/modules/cjs/loader:10
+26:22)
+    at Function._load 
+(node:internal/modules
+/cjs/loader:1175:37)
+    at TracingChannel.
+traceSync (node:diagno
+stics_channel:322:14)
+    at wrapModuleLoad 
+(node:internal/modules
+/cjs/loader:235:24)
+    at Module.require 
+(node:internal/modules
+/cjs/loader:1445:12)
+    at require (node:i
+nternal/modules/helper
+s:135:16)
+    at 
+Object.<anonymous> (C:
+\Users\my\Desktop\TRIO
+NA\backend\server.js:2
+5:23)
+    at 
+Module._compile (node:
+internal/modules/cjs/l
+oader:1688:14) {
+  code: 
+'MODULE_NOT_FOUND',
+  requireStack: [ 'C:\
+\Users\\my\\Desktop\\T
+RIONA\\backend\\server
+.js' ]
+}
+
+Node.js v22.18.0
